@@ -1,4 +1,9 @@
 package yann.projet.bdccspringmvc.repository;
 
-public interface ProductRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import yann.projet.bdccspringmvc.entities.Product;
+
+
+public interface ProductRepository  extends JpaRepository<Product, Long> {
+
 }
