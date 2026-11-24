@@ -28,7 +28,7 @@ public class ProductController {
 
     @GetMapping("/")
     public String home(){
-        return "redirect/index";
+        return "redirect:/index";
     }
 
     @GetMapping("/delete")
